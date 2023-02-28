@@ -16,7 +16,7 @@ class VideoController extends Controller
     public function index()
     {
         $setting = Page::where('is_active', '1')->where('id', '11')->first();
-        return view('hgob.video')->with(compact('setting'));
+        return view('elevate.video')->with(compact('setting'));
     }
 
     /**

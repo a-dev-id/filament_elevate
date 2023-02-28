@@ -18,7 +18,7 @@ class PressController extends Controller
     {
         $setting = Page::where('is_active', '1')->where('id', '12')->first();
         $press_list = PressRoom::where('is_active', '1')->get();
-        return view('hgob.press')->with(compact('setting', 'press_list'));
+        return view('elevate.press')->with(compact('setting', 'press_list'));
     }
 
     /**

@@ -16,9 +16,9 @@ class CareerController extends Controller
      */
     public function index()
     {
-        $setting = Page::where('is_active', '1')->where('id', '16')->first();
+        $setting = Page::where('is_active', '1')->where('id', '14')->first();
         $career_list = Career::where('is_active', '1')->get();
-        return view('hgob.career')->with(compact('setting', 'career_list'));
+        return view('elevate.career')->with(compact('setting', 'career_list'));
     }
 
     /**

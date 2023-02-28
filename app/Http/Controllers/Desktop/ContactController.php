@@ -15,8 +15,8 @@ class ContactController extends Controller
      */
     public function index()
     {
-        $setting = Page::where('is_active', '1')->where('id', '13')->first();
-        return view('hgob.contact')->with(compact('setting'));
+        $setting = Page::where('is_active', '1')->where('id', '8')->first();
+        return view('elevate.contact')->with(compact('setting'));
     }
 
     /**

@@ -17,10 +17,10 @@ class GalleryController extends Controller
      */
     public function index()
     {
-        $setting = Page::where('is_active', '1')->where('id', '9')->first();
+        $setting = Page::where('is_active', '1')->where('id', '7')->first();
         $gallery_list = Gallery::where('is_active', '1')->get();
         $categories = Category::where('is_active', '1')->get();
-        return view('hgob.gallery')->with(compact('setting', 'gallery_list', 'categories'));
+        return view('elevate.gallery')->with(compact('setting', 'gallery_list', 'categories'));
     }
 
     /**

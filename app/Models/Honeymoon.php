@@ -23,6 +23,7 @@ class Honeymoon extends Model
         'price',
         'per',
         'min_night',
+        'promo_code',
         'meta_title',
         'meta_description',
         'is_active',

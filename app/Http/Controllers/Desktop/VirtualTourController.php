@@ -16,7 +16,7 @@ class VirtualTourController extends Controller
     public function index()
     {
         $setting = Page::where('is_active', '1')->where('id', '15')->first();
-        return view('hgob.virtual-tour')->with(compact('setting'));
+        return view('elevate.virtual-tour')->with(compact('setting'));
     }
 
     /**

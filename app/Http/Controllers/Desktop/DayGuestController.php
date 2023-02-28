@@ -18,7 +18,7 @@ class DayGuestController extends Controller
     {
         $setting = Page::where('is_active', '1')->where('id', '12')->first();
         $day_guest_list = DayGuest::where('is_active', '1')->get();
-        return view('hgob.day-guest')->with(compact('setting', 'day_guest_list'));
+        return view('elevate.day-guest')->with(compact('setting', 'day_guest_list'));
     }
 
     /**

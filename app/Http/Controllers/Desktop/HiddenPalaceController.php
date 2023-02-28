@@ -18,7 +18,7 @@ class HiddenPalaceController extends Controller
     {
         $setting = Page::where('is_active', '1')->where('id', '3')->first();
         $hidden_palace_list = HiddenPalace::where('is_active', '1')->get();
-        return view('hgob.hidden-palace')->with(compact('setting', 'hidden_palace_list'));
+        return view('elevate.hidden-palace')->with(compact('setting', 'hidden_palace_list'));
     }
 
     /**

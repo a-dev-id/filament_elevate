@@ -16,9 +16,9 @@ class HoneymoonController extends Controller
      */
     public function index()
     {
-        $setting = Page::where('is_active', '1')->where('id', '7')->first();
+        $setting = Page::where('is_active', '1')->where('id', '5')->first();
         $honeymoon_list = Honeymoon::where('is_active', '1')->get();
-        return view('hgob.honeymoon')->with(compact('setting', 'honeymoon_list'));
+        return view('elevate.honeymoon')->with(compact('setting', 'honeymoon_list'));
     }
 
     /**
