@@ -85,9 +85,8 @@
                                         {!! $data->description !!}
                                     </div>
                                     <div class="modal-footer button-wrapper">
-                                        <button type="button" class="btn btn-outline-custom" data-bs-dismiss="modal">Close</button>
                                         @if ($data->button_text == "Book Now")
-                                        <a href="https://book-directonline.com/properties/elevatebalibyhanginggardendirect?locale=en&propertyId=9897&checkInDate={{date('Y-m-d')}}&checkOutDate={{date('Y-m-d',strtotime('+'.$data->min_night.' days'))}}&currency=USD&trackPage=yes" class="btn btn-custom" target="_blank">{{$data->button_text}}</a>
+                                        <a href="https://book-directonline.com/properties/elevatebalibyhanginggardendirect?promocode={{$data->promo_code}}&locale=en&propertyId=9897&checkInDate={{date('Y-m-d')}}&checkOutDate={{date('Y-m-d',strtotime('+'.$data->min_night.' days'))}}&currency=USD&trackPage=yes" class="btn btn-custom" target="_blank">{{$data->button_text}}</a>
                                         @elseif ($data->button_text == "Inquire Now")
                                         <button type="button" class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#{{'modalinquiry'.$data->id}}">{{ $data->button_text }}</button>
                                         @else

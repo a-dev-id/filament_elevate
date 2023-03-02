@@ -489,7 +489,7 @@
         </div>
     </footer>
 
-    <a href="https://wa.me/6282145666738" class="floating-whatsapp" target="_blank">
+    <a href="https://wa.me/+6282145666738" class="floating-whatsapp" target="_blank">
         <i class="lab la-whatsapp"></i>
     </a>
 
