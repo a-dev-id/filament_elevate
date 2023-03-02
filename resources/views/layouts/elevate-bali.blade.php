@@ -164,7 +164,7 @@
                     </nav>
                     <div class="row">
                         <div class="col-12 col-md-6">
-                            <a target="_blank" href="https://www.luxurialifestyle.com/discovering-balis-best-luxury-resorts/"><img src="{{route('index')}}/themes/elevate/assets/images/elevate-award.png" class="w-100"></a>
+                            <a target="_blank" href="https://www.luxurialifestyle.com/discovering-balis-best-luxury-resorts/"><img src="{{asset('images/elevate-award.png')}}" class="w-100"></a>
                         </div>
                     </div>
                 </div>
@@ -483,7 +483,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <p class="text-center my-2">Copyright &copy; 2023 Elevate Bali. Powered by <a href="https://www.mindimedia.com/" target="_blank">MindiMedia</a>.</p>
+                    <p class="text-center my-2">Copyright &copy; 2023 Elevate Bali.</p>
                 </div>
             </div>
         </div>

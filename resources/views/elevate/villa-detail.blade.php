@@ -3,7 +3,7 @@
 <meta name="description" content="{{ $setting->meta_description }}">
 <meta name="keywords" content="{{ implode(',', $setting->meta_keyword) }}">
 <title>{{ $setting->meta_title }}</title>
-<meta property="og:url" content="{{ route('villa.show',[$setting->slug]) }}">
+<meta property="og:url" content="{{ route('accommodations.show',[$setting->slug]) }}">
 <meta property="og:type" content="website">
 <meta property="og:title" content="{{ $setting->meta_title }} | Elevate Bali by Hanging Gardens">
 <meta property="og:description" content="{{ $setting->meta_description }}">
@@ -13,7 +13,7 @@
 <meta name="twitter:description" content="{{ $setting->meta_description }}">
 <meta name="twitter:image" content="{{ asset('storage/' . $setting->banner_image) }}">
 
-<link rel="canonical" href="{{ route('villa.show',[$setting->slug]) }}" />
+<link rel="canonical" href="{{ route('accommodations.show',[$setting->slug]) }}" />
 @endsection
 
 @push('css')

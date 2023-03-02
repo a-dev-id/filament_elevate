@@ -256,12 +256,10 @@
                                 </div>
                             </div>
                             <h4 class="mt-4 mb-4 fs-5 fs-xl-4 text-uppercase"></h4>
-                            {{-- <a href="https://book-directonline.com/properties/elevatebalibyhanginggardendirect?promocode=ALL2023&checkInDate=2023-02-24&checkOutDate=2023-02-27" target="blank" class="btn btn-primary text-uppercase px-4 rounded-0">BOOK NOW</a> --}}
-
-                            @if ($data->min_night == !null)
+                            @if ($data->button_text == "Book now")
                             <a href="https://book-directonline.com/properties/elevatebalibyhanginggardendirect?locale=en&propertyId=9897&checkInDate={{date('Y-m-d')}}&checkOutDate={{date('Y-m-d',strtotime('+'.$data->min_night.' days'))}}&promocode={{$data->promo_code}}&trackPage=yes" class="btn btn-primary text-uppercase px-4 rounded-0" target="_blank">{{$data->button_text}}</a>
                             @elseif ($data->button_text == "Learn More")
-                            <a href="{{$data->button_link}}?text=Hi, I would like to Book: *Special Offer - {{ $data->title }}*" class="btn btn-primary text-uppercase px-4 rounded-0" target="_blank">{{$data->button_text}}</a>
+                            <a href="{{$data->button_link}}?text=Hi, I would like to Book: Special Offer - {{ $data->title }}" class="btn btn-primary text-uppercase px-4 rounded-0" target="_blank">{{$data->button_text}}</a>
                             @else
                             <a href="{{$data->button_link}}" class="btn btn-primary text-uppercase px-4 rounded-0" target="_blank">{{$data->button_text}}</a>
                             @endif

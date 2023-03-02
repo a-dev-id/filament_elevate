@@ -65,7 +65,7 @@
                                 {{ Str::limit($data->excerpt, 250) }}
                             </div>
                             <div class="text-end">
-                                <a href="{{route('blog.show',[$data->slug])}}" class="link-dark text-decoration-none">Read more <i class="fas fa-long-arrow-alt-right ms-2"></i></a>
+                                <a href="{{route('blog.show',[$data->slug])}}" class="link-dark text-decoration-none">Read more <i class="fa fa-long-arrow-right ms-2" aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </div>

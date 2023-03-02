@@ -61,7 +61,7 @@ class InquiryController extends Controller
         ];
 
         Mail::to($request->email)
-            // ->bcc('info@nandinibali.com', 'reservation@nandinibali.com')
+            // ->bcc('reservations@elevatebali.com')
             ->send(new InquiryMail($mailData));
         return redirect()->route('thank-you.index');
     }

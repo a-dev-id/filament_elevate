@@ -33,7 +33,7 @@ class InquiryMail extends Mailable
     public function envelope()
     {
         return new Envelope(
-            subject: 'Nandini Jungle - Inquiry',
+            subject: 'Elevate Bali - Inquiry',
         );
     }
 

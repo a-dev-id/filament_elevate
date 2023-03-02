@@ -103,7 +103,7 @@
                                                     <table border="0" cellpadding="0" cellspacing="0" class="image_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
                                                         <tr>
                                                             <td class="pad" style="width:100%;padding-top:20px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
-                                                                <div align="center" class="alignment" style="line-height:10px"><img src="{{asset('images/green-logo.png')}}" style="display: block; height: auto; border: 0; width: 140px; max-width: 100%;" width="140" /></div>
+                                                                <div align="center" class="alignment" style="line-height:10px"><img src="{{asset('images/logo.png')}}" style="display: block; height: auto; border: 0; width: 140px; max-width: 100%;" width="140" /></div>
                                                             </td>
                                                         </tr>
                                                     </table>
@@ -398,8 +398,8 @@
                                                         <tr>
                                                             <td class="pad">
                                                                 <div style="color:#101112;font-size:14px;font-family:'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;font-weight:400;line-height:120%;text-align:left;direction:ltr;letter-spacing:0px;mso-line-height-alt:16.8px;">
-                                                                    <p style="margin: 0; margin-bottom: 16px;"><a href="https://nandinibali.com/" rel="noopener" style="text-decoration: none; color: #1c271f;" target="_blank"><strong>Nandini Jungle by Hanging Gardens</strong></a></p>
-                                                                    <p style="margin: 0;">Br, Jl. Susut, Buahan, Payangan, Kabupaten Gianyar - Bali<br />Phone: +62 812-3687-1170 Email: info@nandinibali.com </p>
+                                                                    <p style="margin: 0; margin-bottom: 16px;"><a href="https://elevatebali.com/" rel="noopener" style="text-decoration: none; color: #1c271f;" target="_blank"><strong>Elevate Bali by Hanging Gardens</strong></a></p>
+                                                                    <p style="margin: 0;">Munduk, Banjar Kabupaten Buleleng - Bali Indonesia<br />Phone: +62 821-4566-6738 Email: reservations@elevatebali.com </p>
                                                                 </div>
                                                             </td>
                                                         </tr>
