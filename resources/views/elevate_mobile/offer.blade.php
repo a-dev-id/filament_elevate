@@ -72,7 +72,7 @@
                                         {{ $data->button_text }}
                                     </button>
                                     @elseif($data->button_link == "Book Now")
-                                    <a href="{{$data->button_link}}promocode={{$data->promo_code}}&checkInDate={{date('Y-m-d')}}&checkOutDate={{date('Y-m-d',strtotime('+'.$data->min_night.' days'))}}&currency=USD&trackPage=yes" target="_blank" class="btn btn-custom">{{$data->button_text}}</a>
+                                    <a href="{{$data->button_link}}promocode={{$data->promo_code}}&checkInDate={{date('Y-m-d')}}&checkOutDate={{date('Y-m-d',strtotime('+'.$data->min_night.' days'))}}&trackPage=yes" target="_blank" class="btn btn-custom">{{$data->button_text}}</a>
                                     @else
                                     <a href="{{$data->button_link}}" target="_blank" class="btn btn-custom">{{$data->button_text}}</a>
                                     @endif
